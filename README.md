@@ -73,10 +73,9 @@ $ sudo docker run hello-world
 
 ### [Setting Up Docker Post-installation](https://docs.docker.com/install/linux/linux-postinstall/)
 
-1- Add your user to the docker group
+1- Create/add user to the docker group
 ```sh
-$ sudo groupadd docker
-$ sudo usermod -aG docker $USER
+$ useradd docker -g docker
 ```
 
 2- Configure Docker to start on boot

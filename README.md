@@ -24,17 +24,16 @@
 - Install VirtualBox and run
 - Create a VirtualBox image
     - New
-    - Name: Docker/ Type: Linux/ Type: Ubuntu 64-bit [Next]
+    - Name: Docker/ Type: Linux/ Type: Red Hat 64-bit [Next]
     - Memory size: 1024MB [Next]
     - Create a virtual hard disk now [Next]
     - VDI [Next]
     - Dynamically allocated [Next]
-    - Size 50GB [Next]
-    - [Create]
+    - Size 50GB [Create]
 - Run Docker image
     -  Select Docker and start
     -  In the first time, select the .iso file to install the OS
-    -  After the OS load, click "Install Linux" in Desktop
+    -  After the OS load, choose "Install CentOS 7"
 - Load OS
 - Update Repository
 ```sh

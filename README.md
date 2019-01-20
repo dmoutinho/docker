@@ -41,35 +41,46 @@
 $ su yum update
 ```
 
-### Setting Up Docker
-https://docs.docker.com/install/linux/docker-ce/centos/
+### [Setting Up Docker](https://docs.docker.com/install/linux/docker-ce/centos/)
 
+1- Install required packages.
 ```sh
 $ sudo yum install -y yum-utils \
   device-mapper-persistent-data \
   lvm2
 ```
+
+2- Use the following command to set up the stable repository.
 ```sh
 $ sudo yum-config-manager \
     --add-repo \
     https://download.docker.com/linux/centos/docker-ce.repo
 ```
+
+3- Install the latest version of Docker CE
 ```sh
 $ sudo yum install docker-ce
 ```
+
+4- Start Docker.
 ```sh
 $ sudo systemctl start docker
 ```
+
+5- Verify that docker is installed correctly by running the hello-world image.
 ```sh
 $ sudo docker run hello-world
 ```
 
-https://docs.docker.com/install/linux/linux-postinstall/
+### [Setting Up Docker Post-installation](https://docs.docker.com/install/linux/linux-postinstall/)
 
+1- Add your user to the docker group
 ```sh
 $ sudo groupadd docker
 $ sudo usermod -aG docker $USER
 ```
+
+2- Configure Docker to start on boot
 ```sh
 $ sudo systemctl enable docker
 ```

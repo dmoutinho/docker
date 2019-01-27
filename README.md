@@ -82,5 +82,6 @@ $ useradd docker -g docker
 ```sh
 $ sudo systemctl enable docker
 ```
-### Docker Compose
+### [Docker Compose](https://github.com/dmoutinho/docker/blob/master/docker-compose.md)
+### [Docker Hub](https://hub.docker.com/u/dmoutinho)
 ### Common Commands

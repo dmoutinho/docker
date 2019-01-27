@@ -21,3 +21,29 @@ $ sudo chmod +x /usr/local/bin/docker-compose
 ```sh
 $ docker-compose --version
 ```
+
+# Run Bday
+
+1- Copy docker-compose.yml:
+
+```sh
+$ curl https://raw.githubusercontent.com/dmoutinho/docker/master/docker-compose.yml > docker-compose.yml
+```
+
+2- Run docker-compose.yml:
+
+```sh
+$ docker-compose up
+```
+
+3- Check docker-compose.yml:
+
+```sh
+$ docker-compose ps
+```
+
+4- Stop docker-compose.yml:
+
+```sh
+$ docker-compose down
+```

@@ -22,27 +22,27 @@ $ sudo chmod +x /usr/local/bin/docker-compose
 $ docker-compose --version
 ```
 
-# Run Bday
+# Run [Bday](https://github.com/dmoutinho/bday-alert)
 
-1- Copy docker-compose.yml:
+1- Copy [docker-compose.yml](https://github.com/dmoutinho/docker/blob/master/docker-compose.yml):
 
 ```sh
 $ curl https://raw.githubusercontent.com/dmoutinho/docker/master/docker-compose.yml > docker-compose.yml
 ```
 
-2- Run docker-compose.yml:
+2- Run [docker-compose.yml](https://github.com/dmoutinho/docker/blob/master/docker-compose.yml):
 
 ```sh
 $ docker-compose up
 ```
 
-3- Check docker-compose.yml:
+3- Check [docker-compose.yml](https://github.com/dmoutinho/docker/blob/master/docker-compose.yml):
 
 ```sh
 $ docker-compose ps
 ```
 
-4- Stop docker-compose.yml:
+4- Stop [docker-compose.yml](https://github.com/dmoutinho/docker/blob/master/docker-compose.yml):
 
 ```sh
 $ docker-compose down

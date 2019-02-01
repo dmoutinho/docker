@@ -7,6 +7,12 @@
 
 [Docker - Overview](https://docs.docker.com/engine/docker-overview/)
 
+Docker is a set of technologies:
+
+- Docker Engine: a daemon for creating and executing Docker image.
+- [Docker Hub](https://hub.docker.com/u/dmoutinho): a public registry for Docker image.
+- [Docker Compose](https://github.com/dmoutinho/docker/blob/master/docker-compose.md): a tool for defining and running multi-container Docker applications.
+
 ## Container
 
 >A container is a standard unit of software that packages up code and all its dependencies so the application runs quickly and reliably from one computing environment to another. A Docker container image is a lightweight, standalone, executable package of software that includes everything needed to run an application: code, runtime, system tools, system libraries and settings.
@@ -82,6 +88,5 @@ $ useradd docker -g docker
 ```sh
 $ sudo systemctl enable docker
 ```
-### [Docker Compose](https://github.com/dmoutinho/docker/blob/master/docker-compose.md)
-### [Docker Hub](https://hub.docker.com/u/dmoutinho)
 ### Common Commands
+https://docs.docker.com/engine/docker-overview/

@@ -25,8 +25,10 @@ Docker is a set of technologies, for example:
 ## Container
 
 >A container is a standard unit of software that packages up code and all its dependencies so the application runs quickly and reliably from one computing environment to another. A Docker container image is a lightweight, standalone, executable package of software that includes everything needed to run an application: code, runtime, system tools, system libraries and settings.
-
 [Docker - What Container](https://www.docker.com/resources/what-container)
+
+## Docker Image
+Docker image is created in layers and these layers are used to create other images. This form makes the push / pull more efficient in the registry.
 
 ## Container x Virtual Machines
 
@@ -97,4 +99,7 @@ $ useradd docker -g docker
 ```sh
 $ sudo systemctl enable docker
 ```
-### Common Commands
+
+## Create Docker Image
+
+## Common Commands

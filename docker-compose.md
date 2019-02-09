@@ -22,7 +22,11 @@ $ sudo chmod +x /usr/local/bin/docker-compose
 $ docker-compose --version
 ```
 
-# Run [Bday](https://github.com/dmoutinho/bday-alert)
+# Run [Bday](https://github.com/dmoutinho/bday-alert) App
+
+
+![N|Solid](https://docs.google.com/drawings/d/e/2PACX-1vSzTCFgX_-1e3cJzBIF8zihhGvvZhHPHad0rp6Ep8PFB2K7REnZa453XVBiY9celLDgKvL8M8oIupkh/pub?w=553&h=275)
+
 
 1- Copy [docker-compose.yml](https://github.com/dmoutinho/docker/blob/master/docker-compose.yml):
 

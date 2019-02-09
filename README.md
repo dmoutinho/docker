@@ -1,4 +1,3 @@
-
 # Docker
 
 > Docker is an open platform for developing, shipping, and running applications. Docker enables you to separate your applications from your infrastructure so you can deliver software quickly. With Docker, you can manage your infrastructure in the same ways you manage your applications. By taking advantage of Docker’s methodologies for shipping, testing, and deploying code quickly, you can significantly reduce the delay between writing code and running it in production.
@@ -7,11 +6,21 @@
 
 [Docker - Overview](https://docs.docker.com/engine/docker-overview/)
 
-Docker is a set of technologies:
+Docker uses features of Linux kernel:
+- Namespaces: each resource (Pid, Network,  InterProcess Communication, Mount, Unix Timesharing System) of a container runs in an isolated area.
+- Control groups: limits an application to a specific set of resources.
+- Union file systems: are file systems that operate by creating layers, making them very lightweight and fast.
+
+[Docker - Overview](https://docs.docker.com/engine/docker-overview/)
+
+Docker is a set of technologies, for example:
 
 - Docker Engine: a daemon for creating and executing Docker image.
 - [Docker Hub](https://hub.docker.com/u/dmoutinho): a public registry for Docker image.
 - [Docker Compose](https://github.com/dmoutinho/docker/blob/master/docker-compose.md): a tool for defining and running multi-container Docker applications.
+
+![N|Solid](https://docs.docker.com/engine/images/architecture.svg)
+[Docker - Architecture](https://docs.docker.com/engine/docker-overview/)
 
 ## Container
 

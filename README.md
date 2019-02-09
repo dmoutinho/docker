@@ -102,6 +102,20 @@ $ sudo systemctl enable docker
 
 ## Common Commands
 
+- **docker images**: list images.
+- **docker pull IMAGE_NAME**: pull an image or a repository from a registry.
+- **docker push IMAGE_NAME**: push an image or a repository from a registry.
+- **docker build -t IMAGE_NAME .**:  build an image from a Dockerfile.
+- **docker tag SOURCE_IMAGE TARGET_IMAGE**: create a tag TARGET_IMAGE that refers to SOURCE_IMAGE.
+- **docker ps**: list containers running.
+- **docker ps -a**: list containers.
+- **docker run -it IMAGE_NAME**: run container in iterative mode.
+- **docker start CONTAINER_ID**: start container.
+- **docker stop CONTAINER_ID**: stop container.
+- **docker rm CONTAINER_ID**: remove container.
+- **docker container prune**: remove all stopped containers.
+- **docker rmi IMAGE_NAME**: remove image.
+
 ## References
 
 [Docker Documentation](https://docs.docker.com/)

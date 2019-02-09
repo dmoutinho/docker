@@ -7,15 +7,15 @@
 [Docker - Overview](https://docs.docker.com/engine/docker-overview/)
 
 Docker uses features of Linux kernel:
-- Namespaces: each resource (Pid, Network,  InterProcess Communication, Mount, Unix Timesharing System) of a container runs in an isolated area.
-- Control groups: limits an application to a specific set of resources.
-- Union file systems: are file systems that operate by creating layers, making them very lightweight and fast.
+- **Namespaces**: each resource (Pid, Network,  InterProcess Communication, Mount, Unix Timesharing System) of a container runs in an isolated area.
+- **Control groups**: limits an application to a specific set of resources.
+- **Union file systems**: are file systems that operate by creating layers, making them very lightweight and fast.
 
 [Docker - Overview](https://docs.docker.com/engine/docker-overview/)
 
 Docker is a set of technologies, for example:
 
-- Docker Engine: a daemon for creating and executing Docker image.
+- **Docker Engine**: a daemon for creating and executing Docker image.
 - [Docker Hub](https://hub.docker.com/u/dmoutinho): a public registry for Docker image.
 - [Docker Compose](https://github.com/dmoutinho/docker/blob/master/docker-compose.md): a tool for defining and running multi-container Docker applications.
 
@@ -98,4 +98,3 @@ $ useradd docker -g docker
 $ sudo systemctl enable docker
 ```
 ### Common Commands
-https://docs.docker.com/engine/docker-overview/

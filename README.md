@@ -28,7 +28,7 @@ Docker is a set of technologies, for example:
 
 ## Docker Image
 Docker image is created in layers and these layers are used to create other images. This way makes the push / pull more efficient in the registry. [Testing Image Layer](https://github.com/dmoutinho/docker/blob/master/image-layer.md) and 
-[Creating Image](https://github.com/dmoutinho/docker/blob/master/new-image.md).
+[Creating Image](https://cloud.docker.com/repository/docker/dmoutinho/bday-alert/general).
 
 ## Container x Virtual Machines
 
@@ -121,5 +121,3 @@ $ sudo systemctl enable docker
 [Docker Documentation](https://docs.docker.com/)
 
 [Play with Docker Classroom](https://training.play-with-docker.com/)
-
-https://docs.docker.com/develop/develop-images/dockerfile_best-practices/

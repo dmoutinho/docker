@@ -107,3 +107,5 @@ $ sudo systemctl enable docker
 [Docker Documentation](https://docs.docker.com/)
 
 [Play with Docker Classroom](https://training.play-with-docker.com/)
+
+https://docs.docker.com/develop/develop-images/dockerfile_best-practices/

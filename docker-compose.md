@@ -23,7 +23,9 @@ $ docker-compose --version
 ```
 
 # Run [Bday](https://github.com/dmoutinho/bday-alert) App
-![N|Solid](https://docs.google.com/drawings/d/e/2PACX-1vSzTCFgX_-1e3cJzBIF8zihhGvvZhHPHad0rp6Ep8PFB2K7REnZa453XVBiY9celLDgKvL8M8oIupkh/pub?w=553&h=275)
+<p align="center">
+  <img src="https://docs.google.com/drawings/d/e/2PACX-1vSzTCFgX_-1e3cJzBIF8zihhGvvZhHPHad0rp6Ep8PFB2K7REnZa453XVBiY9celLDgKvL8M8oIupkh/pub?w=553&h=275">
+</p>
 
 1- Copy [docker-compose.yml](https://github.com/dmoutinho/docker/blob/master/docker-compose.md#compose-file):
 ```sh
@@ -48,5 +50,9 @@ $ docker-compose ps
 $ docker-compose down
 ```
 
-# Compose file
-![N|Solid](https://docs.google.com/drawings/d/e/2PACX-1vRJ2zG7IYAzzyC14RtIqQxVm4tSeqD6yzPD_ea4pCJLP12-B4W6yFeD6WplrBQEX2hLfouvqHKU-bRN/pub?w=579&h=693)
+<p align="center">
+  <img src="https://docs.google.com/drawings/d/e/2PACX-1vRJ2zG7IYAzzyC14RtIqQxVm4tSeqD6yzPD_ea4pCJLP12-B4W6yFeD6WplrBQEX2hLfouvqHKU-bRN/pub?w=579&h=693">
+</p>
+
+
+

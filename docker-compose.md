@@ -50,6 +50,7 @@ $ docker-compose ps
 $ docker-compose down
 ```
 
+# Compose file
 <p align="center">
   <img src="https://docs.google.com/drawings/d/e/2PACX-1vRJ2zG7IYAzzyC14RtIqQxVm4tSeqD6yzPD_ea4pCJLP12-B4W6yFeD6WplrBQEX2hLfouvqHKU-bRN/pub?w=579&h=693">
 </p>

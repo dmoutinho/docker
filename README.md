@@ -32,6 +32,10 @@ Docker image is created in layers and these layers are used to create other imag
 
 ## Container x Virtual Machines
 
+   <img src="https://docs.docker.com/images/Container%402x.png" width="400">        <img src="https://docs.docker.com/images/VM%402x.png" width="400">
+
+[Docker - Get Started](https://docs.docker.com/get-started/)
+
 ## Setting Up Docker on VM
 
 ### Setting Up VM

@@ -7,8 +7,8 @@
 [Docker - Overview](https://docs.docker.com/engine/docker-overview/)
 
 Docker uses features of Linux kernel:
-- **Namespaces**: each resource (Pid, Network,  InterProcess Communication, Mount, Unix Timesharing System) of a container runs in an isolated area.
-- **Control groups**: limits an application to a specific set of resources.
+- **Namespaces**: each resource (Pid, Network,  InterProcess Communication, Mount, Unix Timesharing System) of a container runs in an isolated area. **(what a process can see)**
+- **Control groups**: limits an application to a specific set of resources (Memory, CPU, Blkio, Cpuacct, Cpuset, Devices, Net_prio, Freezer). **(what a process can use)**
 - **Union file systems**: are file systems that operate by creating layers, making them very lightweight and fast.
 
 [Docker - Overview](https://docs.docker.com/engine/docker-overview/)

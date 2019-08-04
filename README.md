@@ -1,6 +1,6 @@
 # Docker
 
-> Docker is an open platform for developing, shipping, and running applications. Docker enables you to separate your applications from your infrastructure so you can deliver software quickly. With Docker, you can manage your infrastructure in the same ways you manage your applications. By taking advantage of Docker’s methodologies for shipping, testing, and deploying code quickly, you can significantly reduce the delay between writing code and running it in production.
+> **Docker is an open platform for developing, shipping, and running applications.** Docker enables you to separate your applications from your infrastructure so you can deliver software quickly. With Docker, you can manage your infrastructure in the same ways you manage your applications. By taking advantage of Docker’s methodologies for shipping, testing, and deploying code quickly, you can significantly reduce the delay between writing code and running it in production.
 
 > Docker provides the ability to package and run an application in a loosely isolated environment called a [**container**](https://github.com/dmoutinho/docker#container). The isolation and security allow you to run many containers simultaneously on a given host. Containers are lightweight because they don’t need the extra load of a hypervisor, but run directly within the host machine’s kernel. This means you can run more containers on a given hardware combination than if you were using virtual machines. You can even run Docker containers within host machines that are actually virtual machines!
 
@@ -13,7 +13,10 @@ Docker uses features of Linux kernel:
 
 [Docker - Overview](https://docs.docker.com/engine/docker-overview/)
 
-Docker is a set of technologies, for example:
+Docker **is a set of** technologies, for example:
+
+<img src="https://docs.google.com/drawings/d/e/2PACX-1vTkeECtDt3ucFCV-nmsjqX4eVlX5cwqDAfgW_kIvqZXB9946WIfHBq52gfqawdG3-oo3FIKTpXeSPfe/pub?w=1347&h=879" >
+
 - **Docker Engine**: a daemon for creating and executing [Docker image](https://github.com/dmoutinho/docker#docker-image).
 - [Docker Hub](https://hub.docker.com/u/dmoutinho): a public registry for Docker image.
 - [Docker Compose](https://github.com/dmoutinho/docker/blob/master/docker-compose.md): a tool for defining and running multi-container Docker applications. 

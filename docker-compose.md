@@ -22,4 +22,4 @@ $ sudo chmod +x /usr/local/bin/docker-compose
 $ docker-compose --version
 ```
 
-# [Run Bday App](https://github.com/dmoutinho/bday-alert-solution/blob/master/README.md#docker-compose)
+# [Run Bday Solution](https://github.com/dmoutinho/bday-alert-solution/blob/master/README.md#docker-compose)

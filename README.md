@@ -20,7 +20,7 @@ Docker **is a set of** technologies, for example:
 - **Docker Engine**: a daemon for creating and executing [Docker image](https://github.com/dmoutinho/docker#docker-image).
 - [Docker Hub](https://hub.docker.com/u/dmoutinho): a public registry for Docker image.
 - [Docker Compose](https://github.com/dmoutinho/docker/blob/master/docker-compose.md): a tool for defining and running multi-container Docker applications.
-- Docker Swarm: is a clustering and scheduling tool for Docker containers.
+- **Docker Swarm**: is a clustering and scheduling tool for Docker containers.
 
 ![N|Solid](https://docs.docker.com/engine/images/architecture.svg)
 [Docker - Architecture](https://docs.docker.com/engine/docker-overview/)
